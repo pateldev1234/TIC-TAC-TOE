@@ -1,8 +1,7 @@
 # TIC-TAC-TOE
 "A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript."
 
-## Live Link:
- [Click ](https://nobin-sahu.github.io/TIC-TAC-TOE/)
+
  ## Features:
 1. two-player modes.
 2. Simple and intuitive user interface.
