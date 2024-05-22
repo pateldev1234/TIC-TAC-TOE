@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    padding: 30px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main-container {
+    width: 70%;
+    background-color: rgb(179, 195, 212);
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 20px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.heading {
+    width: 70%;
+    text-align: center;
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    padding: 20px;
+}
+
+.container {
+    width: 70%;
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 20px;
+    padding: 15px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.inside1 {
+    width: 60%;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.inside2 {
+    width: 40%;
+    border: 2px solid rgb(56, 53, 48);
+    border-radius: 10px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 30%;
+    height: 80px;
+    border: 0.5px solid rgb(83, 105, 180);
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.restart {
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(83, 105, 180);
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.winner {
+    width: 100%;
+    border: 2px solid rgb(83, 105, 180);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .main-container {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .heading {
+        width: 90%;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .container {
+        width: 90%;
+        border: 2px solid rgb(56, 53, 48);
+        border-radius: 10px;
+        padding: 10px;
+
+    }
+
+    .inside1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .inside2 {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .content {
+        height: 50px;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .restart {
+        height: 35px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .winner {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
